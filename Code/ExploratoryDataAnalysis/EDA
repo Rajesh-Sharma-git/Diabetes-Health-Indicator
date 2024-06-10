@@ -1,0 +1,11 @@
+import pandas as pd
+
+# Load the dataset
+file_path = '../data/diabetes_012_health_indicators_BRFSS2015.csv'
+diabetes_data = pd.read_csv(file_path)
+
+# Display basic information about the dataset
+diabetes_data.info()
+
+# Display the first few rows of the dataset
+print(diabetes_data.head())
